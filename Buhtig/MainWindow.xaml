@@ -1,0 +1,24 @@
+﻿<telerik:RadRibbonWindow x:Class="Buhtig.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buhtig"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <telerik:RadRibbonView x:Name="RibbonView" Grid.Row="0" ApplicationName="Buhtig" MinimizeButtonVisibility="Visible">
+            <telerik:RadRibbonTab Header="仓库管理">
+                <telerik:RadRibbonGroup Header="仓库导入">
+                    <telerik:RadRibbonToggleButton Content="逐条导入" Size="Large" />
+                    <telerik:RadRibbonToggleButton Content="批量导入" Size="Large" />
+                </telerik:RadRibbonGroup>
+            </telerik:RadRibbonTab>
+        </telerik:RadRibbonView>
+    </Grid>
+</telerik:RadRibbonWindow>
