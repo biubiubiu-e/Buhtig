@@ -1,0 +1,467 @@
+<a onclick="js1()" >文本1</a>
+js代码部分：
+function js1()
+{
+document.getElementByID(“div1”).style.display= ''; // 显示
+document.getElementByID(“div2”).style.display= 'none'; //隐藏
+}
+同理，可以每个锚文本触发一个单独的js函数，设置所有div的显示或隐藏。
+css样式部分：
+#div-id { float:none; margin:75px auto 0 auto; }
+
+本回答由网友推荐
+评论 0 0 
+ 
+seo呆子 
+采纳率：46% 擅长： 百度产品 互联网 安全软件 生活常识 保健养生 
+其他回答
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+margin-top:75px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+background-color:Yellow;
+width:200px; height:200px;
+display:none
+
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+$("#p1").click(function(){
+$("div").hide();
+$("#div1").fadeToggle();
+
+});
+$("#p2").click(function(){
+$("div").hide();
+$("#div2").fadeToggle();
+});
+$("#p3").click(function(){
+$("div").hide();
+$("#div3").fadeToggle();
+});
+$("#p4").click(function(){
+$("div").hide();
+$("#div4").fadeToggle();
+});
+$("#p5").click(function(){
+$("div").hide();
+$("#div5").fadeToggle();
+});
+
+});
+</script>
+
+</head>
+<body>
+
+<div id='div1' >第1个</div>
+<div id='div2'>第2个</div>
+<div id='div3'>第3个</div>
+<div id='div4'>第4个</div>
+<div id='div5'>第5个</div>
+
+<a href='#top' id='p1' >显示第1个DIV</a>
+<a href='#top' id='p2' >显示第2个DIV</a>
+<a href='#top' id='p3' >显示第3个DIV</a>
+<a href='#top' id='p4' >显示第4个DIV</a>
+<a href='#top' id='p5' >显示第5个DIV</a>
+
+</body>
+</html>
+<a onclick="js1()" >文本1</a>
+js代码部分：
+function js1()
+{
+document.getElementByID(“div1”).style.display= ''; // 显示
+document.getElementByID(“div2”).style.display= 'none'; //隐藏
+}
+同理，可以每个锚文本触发一个单独的js函数，设置所有div的显示或隐藏。
+css样式部分：
+#div-id { float:none; margin:75px auto 0 auto; }
+
+本回答由网友推荐
+评论 0 0 
+ 
+seo呆子 
+采纳率：46% 擅长： 百度产品 互联网 安全软件 生活常识 保健养生 
+其他回答
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+margin-top:75px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+background-color:Yellow;
+width:200px; height:200px;
+display:none
+
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+$("#p1").click(function(){
+$("div").hide();
+$("#div1").fadeToggle();
+
+});
+$("#p2").click(function(){
+$("div").hide();
+$("#div2").fadeToggle();
+});
+$("#p3").click(function(){
+$("div").hide();
+$("#div3").fadeToggle();
+});
+$("#p4").click(function(){
+$("div").hide();
+$("#div4").fadeToggle();
+});
+$("#p5").click(function(){
+$("div").hide();
+$("#div5").fadeToggle();
+});
+
+});
+</script>
+
+</head>
+<body>
+
+<div id='div1' >第1个</div>
+<div id='div2'>第2个</div>
+<div id='div3'>第3个</div>
+<div id='div4'>第4个</div>
+<div id='div5'>第5个</div>
+
+<a href='#top' id='p1' >显示第1个DIV</a>
+<a href='#top' id='p2' >显示第2个DIV</a>
+<a href='#top' id='p3' >显示第3个DIV</a>
+<a href='#top' id='p4' >显示第4个DIV</a>
+<a href='#top' id='p5' >显示第5个DIV</a>
+
+</body>
+</html><a onclick="js1()" >文本1</a>
+js代码部分：
+function js1()
+{
+document.getElementByID(“div1”).style.display= ''; // 显示
+document.getElementByID(“div2”).style.display= 'none'; //隐藏
+}
+同理，可以每个锚文本触发一个单独的js函数，设置所有div的显示或隐藏。
+css样式部分：
+#div-id { float:none; margin:75px auto 0 auto; }
+
+本回答由网友推荐
+评论 0 0 
+ 
+seo呆子 
+采纳率：46% 擅长： 百度产品 互联网 安全软件 生活常识 保健养生 
+其他回答
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+margin-top:75px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+background-color:Yellow;
+width:200px; height:200px;
+display:none
+
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+$("#p1").click(function(){
+$("div").hide();
+$("#div1").fadeToggle();
+
+});
+$("#p2").click(function(){
+$("div").hide();
+$("#div2").fadeToggle();
+});
+$("#p3").click(function(){
+$("div").hide();
+$("#div3").fadeToggle();
+});
+$("#p4").click(function(){
+$("div").hide();
+$("#div4").fadeToggle();
+});
+$("#p5").click(function(){
+$("div").hide();
+$("#div5").fadeToggle();
+});
+
+});
+</script>
+
+</head>
+<body>
+
+<div id='div1' >第1个</div>
+<div id='div2'>第2个</div>
+<div id='div3'>第3个</div>
+<div id='div4'>第4个</div>
+<div id='div5'>第5个</div>
+
+<a href='#top' id='p1' >显示第1个DIV</a>
+<a href='#top' id='p2' >显示第2个DIV</a>
+<a href='#top' id='p3' >显示第3个DIV</a>
+<a href='#top' id='p4' >显示第4个DIV</a>
+<a href='#top' id='p5' >显示第5个DIV</a>
+
+</body>
+</html>
+<a onclick="js1()" >文本1</a>
+js代码部分：
+function js1()
+{
+document.getElementByID(“div1”).style.display= ''; // 显示
+document.getElementByID(“div2”).style.display= 'none'; //隐藏
+}
+同理，可以每个锚文本触发一个单独的js函数，设置所有div的显示或隐藏。
+css样式部分：
+#div-id { float:none; margin:75px auto 0 auto; }
+
+本回答由网友推荐
+评论 0 0 
+ 
+seo呆子 
+采纳率：46% 擅长： 百度产品 互联网 安全软件 生活常识 保健养生 
+其他回答
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+margin-top:75px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+background-color:Yellow;
+width:200px; height:200px;
+display:none
+
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+$("#p1").click(function(){
+$("div").hide();
+$("#div1").fadeToggle();
+
+});
+$("#p2").click(function(){
+$("div").hide();
+$("#div2").fadeToggle();
+});
+$("#p3").click(function(){
+$("div").hide();
+$("#div3").fadeToggle();
+});
+$("#p4").click(function(){
+$("div").hide();
+$("#div4").fadeToggle();
+});
+$("#p5").click(function(){
+$("div").hide();
+$("#div5").fadeToggle();
+});
+
+});
+</script>
+
+</head>
+<body>
+
+<div id='div1' >第1个</div>
+<div id='div2'>第2个</div>
+<div id='div3'>第3个</div>
+<div id='div4'>第4个</div>
+<div id='div5'>第5个</div>
+
+<a href='#top' id='p1' >显示第1个DIV</a>
+<a href='#top' id='p2' >显示第2个DIV</a>
+<a href='#top' id='p3' >显示第3个DIV</a>
+<a href='#top' id='p4' >显示第4个DIV</a>
+<a href='#top' id='p5' >显示第5个DIV</a>
+
+</body>
+</html>
+<a onclick="js1()" >文本1</a>
+js代码部分：
+function js1()
+{
+document.getElementByID(“div1”).style.display= ''; // 显示
+document.getElementByID(“div2”).style.display= 'none'; //隐藏
+}
+同理，可以每个锚文本触发一个单独的js函数，设置所有div的显示或隐藏。
+css样式部分：
+#div-id { float:none; margin:75px auto 0 auto; }
+
+本回答由网友推荐
+评论 0 0 
+ 
+seo呆子 
+采纳率：46% 擅长： 百度产品 互联网 安全软件 生活常识 保健养生 
+其他回答
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+margin-top:75px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+background-color:Yellow;
+width:200px; height:200px;
+display:none
+
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+$("#p1").click(function(){
+$("div").hide();
+$("#div1").fadeToggle();
+
+});
+$("#p2").click(function(){
+$("div").hide();
+$("#div2").fadeToggle();
+});
+$("#p3").click(function(){
+$("div").hide();
+$("#div3").fadeToggle();
+});
+$("#p4").click(function(){
+$("div").hide();
+$("#div4").fadeToggle();
+});
+$("#p5").click(function(){
+$("div").hide();
+$("#div5").fadeToggle();
+});
+
+});
+</script>
+
+</head>
+<body>
+
+<div id='div1' >第1个</div>
+<div id='div2'>第2个</div>
+<div id='div3'>第3个</div>
+<div id='div4'>第4个</div>
+<div id='div5'>第5个</div>
+
+<a href='#top' id='p1' >显示第1个DIV</a>
+<a href='#top' id='p2' >显示第2个DIV</a>
+<a href='#top' id='p3' >显示第3个DIV</a>
+<a href='#top' id='p4' >显示第4个DIV</a>
+<a href='#top' id='p5' >显示第5个DIV</a>
+
+</body>
+</html>
+<a onclick="js1()" >文本1</a>
+js代码部分：
+function js1()
+{
+document.getElementByID(“div1”).style.display= ''; // 显示
+document.getElementByID(“div2”).style.display= 'none'; //隐藏
+}
+同理，可以每个锚文本触发一个单独的js函数，设置所有div的显示或隐藏。
+css样式部分：
+#div-id { float:none; margin:75px auto 0 auto; }
+
+本回答由网友推荐
+评论 0 0 
+ 
+seo呆子 
+采纳率：46% 擅长： 百度产品 互联网 安全软件 生活常识 保健养生 
+其他回答
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+margin-top:75px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+background-color:Yellow;
+width:200px; height:200px;
+display:none
+
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+$("#p1").click(function(){
+$("div").hide();
+$("#div1").fadeToggle();
+
+});
+$("#p2").click(function(){
+$("div").hide();
+$("#div2").fadeToggle();
+});
+$("#p3").click(function(){
+$("div").hide();
+$("#div3").fadeToggle();
+});
+$("#p4").click(function(){
+$("div").hide();
+$("#div4").fadeToggle();
+});
+$("#p5").click(function(){
+$("div").hide();
+$("#div5").fadeToggle();
+});
+
+});
+</script>
+
+</head>
+<body>
+
+<div id='div1' >第1个</div>
+<div id='div2'>第2个</div>
+<div id='div3'>第3个</div>
+<div id='div4'>第4个</div>
+<div id='div5'>第5个</div>
+
+<a href='#top' id='p1' >显示第1个DIV</a>
+<a href='#top' id='p2' >显示第2个DIV</a>
+<a href='#top' id='p3' >显示第3个DIV</a>
+<a href='#top' id='p4' >显示第4个DIV</a>
+<a href='#top' id='p5' >显示第5个DIV</a>
+
+</body>
+</html>
